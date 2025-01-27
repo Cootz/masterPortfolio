@@ -20,7 +20,7 @@ class IssueChart extends Component {
     return (
       <div className="issue-chart">
         <Fade bottom duration={2000} distance="20px">
-          <h2 className="issue-chart-header">Issue Distribution</h2>
+          <h2 className="issue-chart-header">Распределение Issue</h2>
         </Fade>
         <Doughnut
           data={data}

@@ -24,7 +24,7 @@ class PullRequestChart extends Component {
     return (
       <div className="pr-chart">
         <Fade bottom duration={2000} distance="20px">
-          <h2 className="pr-chart-header">Pull Request Distribution</h2>
+          <h2 className="pr-chart-header">Распределение Pull Request</h2>
         </Fade>
         <Doughnut
           data={data}
