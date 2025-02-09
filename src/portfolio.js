@@ -24,7 +24,7 @@ const greeting = {
   nickname: "Cootz",
   subTitle:
     "Я ищу проекты с современным стеком (.NET 6+). Пишу свои проекты, изучаю математику, информатику",
-  resumeLink: "https://disk.yandex.ru/i/mcd9Li8_CDS13w",
+  resumeLink: "https://disk.yandex.ru/i/k3t3dDgGzgxpTQ",
   portfolio_repository: "",
   githubProfile: "https://github.com/Cootz",
 };
@@ -41,7 +41,7 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/Cootz",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
@@ -135,12 +135,12 @@ const skills = {
 const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "LeetCode",
-      iconifyClassname: "simple-icons:leetcode",
+      siteName: "",
+      iconifyClassname: "",
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/layman_brother/",
+      profileLink: "",
     },
   ],
 };
@@ -194,6 +194,17 @@ const experience = {
       work: true,
       experiences: [
         {
+          title: "Backend разработчик C#",
+          company: "Проектная деятельность",
+          company_url: "",
+          logo_path: "person.png",
+          duration: "Декабрь 2024 - Настоящее время",
+          location: "Санкт-Петербург, Россия",
+          description:
+            "Развиваю навыки в личных проектах на C# и изучаю новые технологии (JS, React, Grafana, Prometheus). Реализовал логирование и телеметрию с OpenTelemetry (GitHub: OpenTelemetryPlayground), а также разрабатываю frontend-проект на React (GitHub: MyLittleCoffeeShop).",
+          color: "#000000",
+        },
+        {
           title: "Backend разработчик C# (ASP.NET)",
           company: "ЕМ Групп",
           company_url: "https://www.euromobile.ru/",
@@ -201,7 +212,7 @@ const experience = {
           duration: "Июнь 2023 - Февраль 2024",
           location: "Санкт-Петербург, Россия",
           description:
-            "Занимался разработкой новых и поддержкой существующих микросервисов для сбором, обработкой и хранением телеметрии общественного транспорта Санкт-Петербурга. Из этих данных строились отчёты, визуализации и в режиме реального времени определялись местоположения транпортных средств.",
+            "Занимался разработкой новых и поддержкой существующих микросервисов для сбора, обработки и хранения телеметрии общественного транспорта Санкт-Петербурга. Из этих данных строились отчёты, визуализации и в режиме реального времени определялись местоположения транпортных средств.",
           color: "#000000",
         },
         {
