@@ -1,4 +1,3 @@
-import fetch from "node-fetch";
 import fs from "fs";
 import dotenv from "dotenv";
 
@@ -169,7 +168,8 @@ fetch(baseUrl, {
       }
     );
   })
-  .catch((error) => console.log(JSON.stringify(error)));
+  .catch((error) => console.log(error));
+
 
 fetch(baseUrl, {
   method: "POST",
@@ -204,7 +204,8 @@ fetch(baseUrl, {
       }
     );
   })
-  .catch((error) => console.log(JSON.stringify(error)));
+  .catch((error) => console.log(error));
+
 
 fetch(baseUrl, {
   method: "POST",
@@ -243,7 +244,7 @@ fetch(baseUrl, {
       }
     );
   })
-  .catch((error) => console.log(JSON.stringify(error)));
+  .catch((error) => console.log(error));
 
 const languages_icons = {
   Python: "logos-python",
@@ -301,6 +302,6 @@ fetch(baseUrl, {
       }
     );
   })
-  .catch((error) =>
-    console.log("Error occured in pinned projects 2", JSON.stringify(error))
-  );
+  .catch((error) => {
+    console.error("Error occurred in pinned projects 2", error);
+  });
