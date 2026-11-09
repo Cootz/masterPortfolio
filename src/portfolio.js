@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Портфолио Матвеева Артёма",
   description:
-    "Ищу проекты с современным стеком (.NET 6+). Пишу свои проекты, изучаю математику, информатику",
+    "Backend-разработчик на C#/.NET: микросервисы на .NET 8–10, Kafka, PostgreSQL, Redis. Открыт к удалённой работе.",
   og: {
     title: "Портфолио Матвеева Артёма",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Cootz",
   nickname: "Cootz",
   subTitle:
-    "Я ищу проекты с современным стеком (.NET 6+). Пишу свои проекты, изучаю математику, информатику",
+    "Backend-разработчик на C#/.NET. Пишу микросервисы на .NET 8–10 с Kafka, PostgreSQL и Redis. Ищу удалённую работу в продуктовой команде.",
   resumeLink: "https://disk.yandex.ru/i/k3t3dDgGzgxpTQ",
   portfolio_repository: "",
   githubProfile: "https://github.com/Cootz",
@@ -68,6 +68,7 @@ const skills = {
         "⚡ Разрабатываю высокопроизводительные микросервисы",
         "⚡ Планирую, создаю и оптимизирую базы данных",
         "⚡ Обеспечиваю адаптивность и расширяемость системы",
+        "⚡ Строю асинхронное взаимодействие через Kafka и наблюдаемость: OpenTelemetry, Serilog, Grafana",
       ],
       softwareSkills: [
         {
@@ -94,6 +95,27 @@ const skills = {
         {
           skillName: "Redis",
           fontAwesomeClassname: "skill-icons:redis-light",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Kafka",
+          fontAwesomeClassname: "skill-icons:kafka",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Grafana",
+          fontAwesomeClassname: "skill-icons:grafana-light",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Prometheus",
+          fontAwesomeClassname: "skill-icons:prometheus",
           style: {
             backgroundColor: "transparent",
           },
@@ -186,7 +208,7 @@ const experience = {
   title: "Опыт",
   subtitle: "Работа, Стажировки и Олимпиады",
   description:
-    "За 2 года я работал с различными задачами от разработки игр до разработки ПО для общественного транспорта",
+    "Больше 2 лет коммерческой backend-разработки: от телеметрии общественного транспорта Санкт-Петербурга до платформы управления вендинговыми автоматами и маркетплейса для Аэрофлота",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -194,11 +216,22 @@ const experience = {
       work: true,
       experiences: [
         {
+          title: ".NET-разработчик",
+          company: "Uvenco (Ювенко)",
+          company_url: "",
+          logo_path: "person.png",
+          duration: "Март 2025 - Сентябрь 2026",
+          location: "Удалённо",
+          description:
+            "Крупнейший вендинговый оператор России. В команде из 3 backend-разработчиков разработали платформу управления сетью вендинговых автоматов из 15 микросервисов на .NET 8–10 с BFF-слоем и Kafka: данные с автоматов (состояние, местоположение, остатки), удалённые команды, фискализация продаж через ферму ККТ, учёт точек размещения. Инструментировал сервисы через OpenTelemetry и Serilog. Довели платформу до демо с реальными автоматами. С июня 2026 разрабатывал backend маркетплейса для программы лояльности Аэрофлота.",
+          color: "#000000",
+        },
+        {
           title: "Backend разработчик C#",
           company: "Проектная деятельность",
           company_url: "",
           logo_path: "person.png",
-          duration: "Декабрь 2024 - Настоящее время",
+          duration: "Декабрь 2024 - Февраль 2025",
           location: "Санкт-Петербург, Россия",
           description:
             "Развиваю навыки в личных проектах на C# и изучаю новые технологии (JS, React, Grafana, Prometheus). Реализовал логирование и телеметрию с OpenTelemetry (GitHub: OpenTelemetryPlayground), а также разрабатываю frontend-проект на React (GitHub: MyLittleCoffeeShop).",
@@ -216,12 +249,12 @@ const experience = {
           color: "#000000",
         },
         {
-          title: "Разработчик C#",
+          title: "Open-source контрибьютор (C#)",
           company: "ppy Pty Ltd",
           company_url: "https://osu.ppy.sh/",
           logo_path: "lazer.png",
           duration: "Декабрь 2022 - Май 2023",
-          location: "Уэмбли, Австралия",
+          location: "Удалённо, open source",
           description:
             "Я занимался разработкой нового функционала для кроссплатформенного приложения на C#. Реализовал свою идею, от этапа предложения и обсуждения до конечной реализации. Устранил критическую ошибку в работе базы данных, которая приводила к потере данных.",
           color: "#0879bf",
