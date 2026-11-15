@@ -3,7 +3,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import { Fade } from "react-reveal";
 import "./Resume.css";
-import myResumePdf from "../../assets/docs/Ashutosh_Hathidara_Resume_ML.pdf";
+import myResumePdf from "../../assets/docs/Matveev_Artem_CSharp_NET_Backend.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
