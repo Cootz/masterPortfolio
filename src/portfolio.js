@@ -24,7 +24,7 @@ const greeting = {
   nickname: "Cootz",
   subTitle:
     "Backend-разработчик на C#/.NET, 3+ года опыта. Делаю высоконагруженные сервисы и микросервисные платформы: потоковые данные с транспорта и вендинговых автоматов, управление доступом, интеграции. Снизил нагрузку на сервер, обрабатывающий данные 2000+ транспортных средств, в 10 раз. Ищу полностью удалённую работу над высоконагруженными системами.",
-  resumeLink: "https://disk.yandex.ru/i/k3t3dDgGzgxpTQ",
+  resumeLink: "https://disk.yandex.com/i/O7uaGGCQabHrHw",
   portfolio_repository: "",
   githubProfile: "https://github.com/Cootz",
 };
