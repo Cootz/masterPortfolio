@@ -221,7 +221,7 @@ const experience = {
           title: ".NET-разработчик",
           company: "Uvenco (Ювенко)",
           company_url: "",
-          logo_path: "person.png",
+          logo_path: "uvenco-logo.svg",
           duration: "Март 2025 - Октябрь 2026",
           location: "Удалённо",
           description:
